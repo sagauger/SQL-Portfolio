@@ -1,3 +1,5 @@
+/* Instructed to create a table for a fictional store with fictional inventory */
+
 CREATE TABLE local_organic (id INTEGER PRIMARY KEY, item_name TEXT, sourced_from TEXT, quantity INTEGER, price INTEGER);
 INSERT INTO local_organic VALUES (100, 'Local Honey', 'Royersford, PA', 15, 7.50);
 SELECT * FROM local_organic;
